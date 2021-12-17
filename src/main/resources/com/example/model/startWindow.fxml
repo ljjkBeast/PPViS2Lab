@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.model.ControllerForStartWindow">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@жираф.jpg" />
+         </image>
+      </ImageView>
+      <Button defaultButton="true" layoutX="110.0" layoutY="112.0" mnemonicParsing="false" onAction="#moveToLogIn" opacity="0.9" prefHeight="58.0" prefWidth="380.0" text="Войти" />
+      <Button defaultButton="true" layoutX="110.0" layoutY="230.0" mnemonicParsing="false" onAction="#moveToRegistration" opacity="0.9" prefHeight="58.0" prefWidth="380.0" text="Зарегистрироваться" />
+   </children>
+</Pane>

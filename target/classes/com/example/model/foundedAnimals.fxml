@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.model.ControllerForFoundedAnimalsWindow">
+   <children>
+      <ImageView fitHeight="298.0" fitWidth="464.0" preserveRatio="true">
+         <image>
+            <Image url="@жираф.jpg" />
+         </image>
+      </ImageView>
+      <Button defaultButton="true" layoutX="94.0" layoutY="200.0" mnemonicParsing="false" onAction="#moveToSelectedAnimal" opacity="0.8" prefHeight="35.0" prefWidth="277.0" text="Перейти к выбранному животному" />
+      <ComboBox layoutX="123.0" layoutY="51.0" opacity="0.8" prefHeight="35.0" prefWidth="218.0" />
+   </children>
+</Pane>
